@@ -1,0 +1,91 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+  
+}
+body {
+    background-color: antiquewhite;
+}
+
+.box2 {
+    background-color: white;
+   padding-right: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 280px;
+}
+.but{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+   
+}
+button{
+    background-color: green;
+    color: white;
+    width: 215px;
+    height: 47px;
+    border-radius: 5px;
+    border: none;
+}
+.box{
+    width: 100%;
+    margin-left: 40px;
+}
+
+.pa{
+    color: gray;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 30px;
+}
+.HEAD{
+   
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.pr{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+span{
+    margin-top: 30px;
+    color: gray;
+    font-size: 15px;
+}
+.hr{
+    color: green;
+    font-family: ;
+}
+.sap{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 630;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.im{
+    width: 12px;
+}
+.box1{
+    width: 280px;
+    
+}
+.ima{
+    width: 280px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+@media(min-width:500px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
